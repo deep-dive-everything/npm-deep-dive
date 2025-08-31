@@ -145,7 +145,7 @@ if (!semver.satisfies(clientApiVersion, "^2.0.0")) {
 
 ### 1.3.5: event-stream 사건: 오픈소스는 얼마나 안전한가?
 
-- [event-stream 공격 사건의 전말]https://blog.ull.im/engineering/2018/11/30/event-stream-issue.html)
+- [event-stream 공격 사건의 전말](https://blog.ull.im/engineering/2018/11/30/event-stream-issue.html)
 
 ### 1.3.6 유의적 버전과 npm을 사용할 때 주의할 점
 
@@ -168,7 +168,7 @@ if (!semver.satisfies(clientApiVersion, "^2.0.0")) {
 
 - lock 파일은 파일의 크기가 크고 diff를 github 인터페이스에서 확인하기 어려워 쉽게 머지됨
 - npm install 대신 npm ci를 통해 lock 파일이 변경되지 않도록 하는 것이 좋음
-- 좀 더 보수적으로 접근하고 싶다면 yarn과 Pnpm에서 지원하는 pnp 모드와 zeron install을 사용해보는 것도 좋음
+- 좀 더 보수적으로 접근하고 싶다면 yarn과 Pnpm에서 지원하는 pnp 모드와 zero install을 사용해보는 것도 좋음
 
 #### 1.6.3.4 보안 취약점에 귀 기울이기
 
